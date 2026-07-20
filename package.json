@@ -1,0 +1,6 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "echo 'No frontend build needed — using self-hosted CSS.'"
+    }
+}
