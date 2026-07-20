@@ -1,4 +1,4 @@
-# Nook — open-source knowledge base app
+# Nook — complete V knowledge base example app
 
 **Nook** is a free, open-source knowledge base app built with V. Nook is a developer Q&A forum with core moderation flags. Run it locally, deploy it as a self-hosted knowledge base app, or [remix it on cenius.ai](https://cenius.ai/marketplace/p/nook?ref=gh&utm_campaign=nook-vlang) to make it your own — the whole application (code, design, seeded demo data) ships in this repository under the MIT license.
 
@@ -6,7 +6,9 @@
 
 ## Demo
 
-![Nook demo — knowledge base app built with V](.github/media/hero.gif)
+![Nook — knowledge base app](.github/media/poster.png)
+
+![Nook demo — knowledge base app built with V](.github/media/hero_flagship.gif)
 
 ▶ **[Watch the full demo video](https://cenius.ai/marketplace/p/nook?ref=gh&utm_campaign=nook-vlang)** — the complete walkthrough, playing on the project's cenius.ai page · [MP4 file](.github/media/demo.mp4)
 
@@ -73,7 +75,7 @@ _Full guide: [`USAGE.md`](USAGE.md)_
 
 ## Architecture
 
-V application, delivered as a complete, runnable project (8340 files). Top-level layout: `app/`, `bootstrap/`, `config/`, `database/`, `public/`, `resources/`, `routes/`, `storage/`. `install.sh` provisions dependencies and seeds demo data, so the app boots with something to show. Setup details live in [`INSTALL.md`](INSTALL.md).
+V application, delivered as a complete, runnable project (8334 files). Top-level layout: `app/`, `bootstrap/`, `config/`, `database/`, `public/`, `resources/`, `routes/`, `storage/`. `install.sh` provisions dependencies and seeds demo data, so the app boots with something to show. Setup details live in [`INSTALL.md`](INSTALL.md).
 
 ## FAQ
 
