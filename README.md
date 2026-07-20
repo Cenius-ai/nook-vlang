@@ -1,14 +1,14 @@
 # Nook — complete V knowledge base example app
 
-**Nook** is a free, open-source knowledge base app built with V. Nook is a developer Q&A forum with core moderation flags. Run it locally, deploy it as a self-hosted knowledge base app, or [remix it on cenius.ai](https://cenius.ai/marketplace/p/nook?ref=gh&utm_campaign=nook-vlang) to make it your own — the whole application (code, design, seeded demo data) ships in this repository under the MIT license.
+**Nook** is a free, open-source knowledge base app built with V. Nook is a developer Q&A forum with core moderation flags. Run it locally, deploy it as a self-hosted knowledge base app, or [remix it on cenius.ai](https://cenius.ai/marketplace/p/nook?ref=gh&utm_campaign=nook-vlang) to make it your own — the whole application (code, design, seeded demo data) ships in this repository under the Apache-2.0 license.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-16b881.svg)](LICENSE) ![Stack](https://img.shields.io/badge/Stack-V-3b82f6) [![Built with cenius.ai](https://img.shields.io/badge/Built%20with-cenius.ai-8b5cf6)](https://cenius.ai)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) ![Stack](https://img.shields.io/badge/Stack-V-3b82f6) [![Built with cenius.ai](https://img.shields.io/badge/Built%20with-cenius.ai-8b5cf6)](https://cenius.ai)
 
-[![Open in cenius.ai](https://img.shields.io/badge/▶%20Open%20%26%20edit%20in-cenius.ai-8b5cf6?style=for-the-badge)](https://cenius.ai/marketplace/p/nook)
+[![Open in cenius.ai](https://img.shields.io/badge/▶%20Open%20%26%20edit%20in-cenius.ai-8b5cf6?style=for-the-badge)](https://cenius.ai/marketplace/p/nook?ref=gh&utm_campaign=nook-vlang)
 
-> **▶ [Open & edit in cenius.ai](https://cenius.ai/marketplace/p/nook)** — one click to an editable workspace: describe changes in plain English, get an instant preview, one-click deploy and host. Modifications made on the platform come with full rebrand & relicense rights.
+> **▶ [Open & edit in cenius.ai](https://cenius.ai/marketplace/p/nook?ref=gh&utm_campaign=nook-vlang)** — one click to an editable workspace: describe changes in plain English, get an instant preview, one-click deploy and host. Modifications made on the platform come with full rebrand & relicense rights.
 
-_Local clone? See [Quick start](#quick-start) or [Quickstart](#quickstart) below. cenius.ai is the zero-setup path._
+_Local clone? See [Quick start](#quick-start) below. cenius.ai is the zero-setup path._
 
 ## Demo
 
@@ -91,7 +91,7 @@ Clone this repository and run `./install.sh`, then start the app as described in
 
 ### Can I use Nook in a commercial project?
 
-Yes — it ships under the MIT license, which permits commercial use, modification and redistribution. The full text is in [LICENSE](LICENSE).
+Yes — it ships under the Apache-2.0 license, which permits commercial use, modification and redistribution. The full text is in [LICENSE](LICENSE).
 
 ### Is white-labeling Nook allowed?
 
@@ -107,7 +107,7 @@ Nook is a V application — and this repository holds the complete, runnable sou
 
 ## License & rebranding
 
-Released under the [MIT License](LICENSE) (© 2026 Cenius AI) — free for personal and commercial use.
+Released under the [Apache License 2.0](LICENSE) (© 2026 Cenius AI) — free for personal and commercial use. The Cenius name/logo are trademarks (see NOTICE).
 
 **Need a customized version?** [Remix this app on cenius.ai](https://cenius.ai/marketplace/p/nook?ref=gh&utm_campaign=nook-vlang) — modifications made on the platform come with **full rebrand & relicense rights** over your derivative.
 
