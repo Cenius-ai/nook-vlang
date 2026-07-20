@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --card: #fdffff;
+        --ring: #009494;
+        --muted: #e8eef1;
+        --accent: #009494;
+        --border: #d9dfe2;
+        --primary: #132129;
+        --on-accent: #111111;
+        --secondary: #e8eef1;
+        --background: #f5fbff;
+        --foreground: #0b1418;
+        --on-primary: #ffffff;
+        --destructive: #c9302d;
+        --on-secondary: #0b1418;
+        --on-destructive: #ffffff;
+        --card-foreground: #0b1418;
+        --muted-foreground: #5a656b;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Zilla Slab', serif;
+    }
+}
+
+@layer components {
+    /* Pagination styling */
+    .pagination {
+        @apply flex items-center gap-1 text-sm;
+    }
+    .pagination .page-item {
+        @apply list-none;
+    }
+    .pagination .page-link {
+        @apply px-3 py-1.5 rounded-lg text-[#5a656b] dark:text-[#8a959b] hover:bg-[#e8eef1] dark:hover:bg-[#1a282f] transition-colors;
+    }
+    .pagination .active .page-link {
+        @apply bg-[#009494] text-white hover:bg-[#007a7a];
+    }
+    .pagination .disabled .page-link {
+        @apply opacity-40 pointer-events-none;
+    }
+}
+
+/* Custom focus ring */
+*:focus-visible {
+    outline: none;
+}
+
+/* Tabular numbers for vote counts */
+.tabular-nums {
+    font-variant-numeric: tabular-nums;
+}
+
+/* Cloak for Alpine */
+[x-cloak] { display: none !important; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    html { scroll-behavior: auto; }
+}
